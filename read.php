@@ -1,11 +1,18 @@
 <?php
-#include_once 'connection.php';
+include_once 'connection.php';
 
-header("Access-Control-Allow-Origin: *");
+#header("Access-Control-Allow-Origin: *");
 #header("Content-Type: application/json; charset=UTF-8"); 
 
 $fh = file_get_contents('file.txt');
-echo $fh;
+$response = array(
+    "status"=> "200",
+    "statusText"=> "200 No Error",
+    "headers"=> "",
+    "responseText"=> $fh,
+    "responseState"=> "DONE"
+    );
+echo json_encode($response);
 
 // query products
 /*$stmt = $product->read();

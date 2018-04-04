@@ -1,0 +1,7 @@
+{
+	"status": "200",
+	"statusText": "200 No Error",
+	"headers": "",
+	"responseText": "{\"data\":{\"inserts\":{\"RejectionRates\":[{\"LABEL\":\"0-10%\",\"TEXT\":\"10%\",\"COUNT\":0},{\"LABEL\":\"10-20%\",\"TEXT\":\"20%\",\"COUNT\":0},{\"LABEL\":\"20-30%\",\"TEXT\":\"30%\",\"COUNT\":0},{\"LABEL\":\"30-40%\",\"TEXT\":\"40%\",\"COUNT\":0},{\"LABEL\":\"40-50%\",\"TEXT\":\"50%\",\"COUNT\":0},{\"LABEL\":\"50-60%\",\"TEXT\":\"60%\",\"COUNT\":0},{\"LABEL\":\"60-70%\",\"TEXT\":\"70%\",\"COUNT\":0},{\"LABEL\":\"70-80%\",\"TEXT\":\"80%\",\"COUNT\":0},{\"LABEL\":\"80-90%\",\"TEXT\":\"90%\",\"COUNT\":0},{\"LABEL\":\"90-100%\",\"TEXT\":\"100%\",\"COUNT\":0}]}},\"success\":true,\"errmsg\":null,\"errorCode\":null,\"metaData\":{\"baseParams\":{\"DASHBOARD_ID\":\"1806\"},\"filterFields\":{\"AS_OF_DATE\":\"2018-01-30\"},\"columns\":[{\"columnName\":\"LABEL\",\"type\":\"VARCHAR2\"},{\"columnName\":\"TEXT\",\"type\":\"VARCHAR2\"},{\"columnName\":\"COUNT\",\"type\":\"NUMBER\"}],\"fields\":[]},\"structure\":{\"tables\":{\"RejectionRates\":\"([LABEL]  text, [TEXT]  text, [COUNT]  text)\"},\"otherSQL\":{}},\"userMessage\":[]}",
+	"responseState": "DONE"
+}

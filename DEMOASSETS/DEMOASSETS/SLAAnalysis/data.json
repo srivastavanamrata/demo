@@ -1,0 +1,7 @@
+{
+	"status": "200",
+	"statusText": "200 No Error",
+	"headers": "",
+	"responseText":"{\"data\":{\"inserts\":{\"SLAAnalysis\":[{\"LABEL\":\"Breach\",\"VALUE\":10.33,\"COUNT\":630},{\"LABEL\":\"Warning\",\"VALUE\":0.62,\"COUNT\":38},{\"LABEL\":\"In SLA\",\"VALUE\":76.71,\"COUNT\":4676},{\"LABEL\":\"Not Defined\",\"VALUE\":12.16,\"COUNT\":741},{\"LABEL\":\"Non Workday\",\"VALUE\":0.18,\"COUNT\":11}]}},\"success\":true,\"errmsg\":null,\"errorCode\":null,\"metaData\":{\"baseParams\":{\"DASHBOARD_ID\":\"1800\"},\"filterFields\":{\"AS_OF_DATE\":\"2018-01-30\"},\"columns\":[{\"columnName\":\"LABEL\",\"type\":\"VARCHAR2\"},{\"columnName\":\"VALUE\",\"type\":\"NUMBER\"},{\"columnName\":\"COUNT\",\"type\":\"NUMBER\"}],\"fields\":[]},\"structure\":{\"tables\":{\"SLAAnalysis\":\"([LABEL]  text, [VALUE]  text, [COUNT]  text)\"},\"otherSQL\":{}},\"userMessage\":[]}",
+	"responseState": "DONE"
+}

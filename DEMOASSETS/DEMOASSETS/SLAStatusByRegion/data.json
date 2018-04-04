@@ -1,0 +1,7 @@
+{
+	"status": "200",
+	"statusText": "200 No Error",
+	"headers": "",
+	"responseText":"{\"data\":{\"inserts\":{\"SLAStatusByRegion\":[{\"REGION\":\"GLOBAL\",\"Breach\":12,\"Warning\":0,\"In SLA\":353,\"Non Workday\":2},{\"REGION\":\"GLOBAL-NH\",\"Breach\":0,\"Warning\":0,\"In SLA\":253,\"Non Workday\":0},{\"REGION\":\"EMEA\",\"Breach\":6,\"Warning\":0,\"In SLA\":845,\"Non Workday\":0},{\"REGION\":\"CEMEA\",\"Breach\":12,\"Warning\":0,\"In SLA\":1221,\"Non Workday\":0},{\"REGION\":\"NA\",\"Breach\":1,\"Warning\":0,\"In SLA\":194,\"Non Workday\":0},{\"REGION\":\"APAC\",\"Breach\":22,\"Warning\":0,\"In SLA\":744,\"Non Workday\":0},{\"REGION\":\"LATAM\",\"Breach\":2,\"Warning\":0,\"In SLA\":518,\"Non Workday\":0}]}},\"success\":true,\"errmsg\":null,\"errorCode\":null,\"metaData\":{\"baseParams\":{\"DASHBOARD_ID\":\"1803\"},\"filterFields\":{\"AS_OF_DATE\":\"2018-01-30\"},\"columns\":[{\"columnName\":\"REGION\",\"type\":\"VARCHAR2\"},{\"columnName\":\"Breach\",\"type\":\"NUMBER\"},{\"columnName\":\"Warning\",\"type\":\"NUMBER\"},{\"columnName\":\"In SLA\",\"type\":\"NUMBER\"},{\"columnName\":\"Non Workday\",\"type\":\"NUMBER\"}],\"fields\":[]},\"structure\":{\"tables\":{\"SLAStatusByRegion\":\"([REGION]  text, [Breach]  text, [Warning]  text, [In SLA]  text, [Non Workday]  text)\"},\"otherSQL\":{}},\"userMessage\":[]}",
+	"responseState": "DONE"
+}

@@ -1,0 +1,7 @@
+{
+	"status": "200",
+	"statusText": "200 No Error",
+	"headers": "",
+	"responseText":"{\"data\":{\"inserts\":{\"SLAStatusByFeedID\":[{\"FEED_TYP\":\"WS-PP\",\"Breach\":23,\"Warning\":0,\"In SLA\":2940,\"Non Workday\":1},{\"FEED_TYP\":\"RT-PP\",\"Breach\":6,\"Warning\":0,\"In SLA\":262,\"Non Workday\":0},{\"FEED_TYP\":\"GL\",\"Breach\":12,\"Warning\":0,\"In SLA\":383,\"Non Workday\":0},{\"FEED_TYP\":\"REF\",\"Breach\":14,\"Warning\":0,\"In SLA\":543,\"Non Workday\":1}]}},\"success\":true,\"errmsg\":null,\"errorCode\":null,\"metaData\":{\"baseParams\":{\"DASHBOARD_ID\":\"1805\"},\"filterFields\":{\"AS_OF_DATE\":\"2018-01-30\"},\"columns\":[{\"columnName\":\"FEED_TYP\",\"type\":\"VARCHAR2\"},{\"columnName\":\"Breach\",\"type\":\"NUMBER\"},{\"columnName\":\"Warning\",\"type\":\"NUMBER\"},{\"columnName\":\"In SLA\",\"type\":\"NUMBER\"},{\"columnName\":\"Non Workday\",\"type\":\"NUMBER\"}],\"fields\":[]},\"structure\":{\"tables\":{\"SLAStatusByFeedID\":\"([FEED_TYP]  text, [Breach]  text, [Warning]  text, [In SLA]  text, [Non Workday]  text)\"},\"otherSQL\":{}},\"userMessage\":[]}",
+	"responseState": "DONE"
+}

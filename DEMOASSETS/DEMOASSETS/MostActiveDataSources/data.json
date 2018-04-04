@@ -1,0 +1,7 @@
+{
+	"status": "200",
+	"statusText": "200 No Error",
+	"headers": "",
+	"responseText": "{\"data\":{\"inserts\":{\"MostActiveDataSources\":[]}},\"success\":true,\"errmsg\":null,\"errorCode\":null,\"metaData\":{\"baseParams\":{\"DASHBOARD_ID\":\"1804\"},\"filterFields\":{\"AS_OF_DATE\":\"2018-01-30\"},\"columns\":[{\"columnName\":\"LABEL\",\"type\":\"VARCHAR2\"},{\"columnName\":\"CSIID\",\"type\":\"VARCHAR2\"},{\"columnName\":\"FEED_TYPE\",\"type\":\"VARCHAR2\"},{\"columnName\":\"COUNT\",\"type\":\"NUMBER\"}],\"fields\":[]},\"structure\":{\"tables\":{\"MostActiveDataSources\":\"([LABEL]  text, [CSIID]  text, [FEED_TYPE]  text, [COUNT]  text)\"},\"otherSQL\":{}},\"userMessage\":[]}",
+	"responseState": "DONE"
+}

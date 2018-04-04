@@ -1,20 +1,171 @@
 <input type="button" value= "Read Data" onclick="fnRead()">
-<input type="button" value= "Create Data" onclick="fnCreate()">
+<input type="button" value= "Publish Data" onclick="fnCreate()">
 <input type="button" value= "Application Data" onclick="fnApp()">
 <input type="button" value= "Dashboard Data" onclick="fnDashboard()">
 <input type="button" value= "Empty Meta Data" onclick="fnEmptyMetaData()">
 <input type="button" value= "My Dashboard Data" onclick="fnMyDashboardData()">
 <input type="button" value= "Output Column" onclick="fnOutputColumnData()">
+<input type="button" value= "Demo Assets - Feed Analysis" onclick="fnFeedAnalysis()">
+<input type="button" value= "Demo Assets - Filter Analysis" onclick="fnFilterAnalysis()">
+<input type="button" value= "Demo Assets - IFW Dashboard" onclick="fnIFWDashboard()">
+<input type="button" value= "Demo Assets - Most Active DataSources" onclick="fnMostActiveDataSources()">
+<input type="button" value= "Demo Assets - Rejection Rates" onclick="fnRejectionRates()">
+<input type="button" value= "Demo Assets - Report Dashboard" onclick="fnReportDashboard()">
+<input type="button" value= "Demo Assets - SLA Analysis" onclick="fnSLAAnalysis()">
+<input type="button" value= "Demo Assets - SLA Status By FeedID" onclick="fnSLAStatusByFeedID()">
+<input type="button" value= "Demo Assets - SLA Status By Region" onclick="fnSLAStatusByRegion()">
+<input type="button" value= "Metadata" onclick="fnMetadata()">
 
 <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
 <script>
+
+function fnMetadata(){
+  $.ajax({
+    type: "GET",
+    url: 'metadataResponse.php',
+    success: function(data){
+      console.log(data);            
+    },
+    error: function (errorThrown) {
+         console.log('Error in Operation');
+     }
+  });
+}
+
+function fnSLAStatusByRegion(){
+  $.ajax({
+    type: "GET",
+    url: 'demoAssetsResponse.php',
+    data: {param: "SLAStatusByRegion"},
+    success: function(data){
+      console.log(data);            
+    },
+    error: function (errorThrown) {
+         console.log('Error in Operation');
+     }
+  });
+}
+
+function fnSLAStatusByFeedID(){
+  $.ajax({
+    type: "GET",
+    url: 'demoAssetsResponse.php',
+    data: {param: "SLAStatusByFeedID"},
+    success: function(data){
+      console.log(data);            
+    },
+    error: function (errorThrown) {
+         console.log('Error in Operation');
+     }
+  });
+}
+
+function fnSLAAnalysis(){
+  $.ajax({
+    type: "GET",
+    url: 'demoAssetsResponse.php',
+    data: {param: "SLAAnalysis"},
+    success: function(data){
+      console.log(data);            
+    },
+    error: function (errorThrown) {
+         console.log('Error in Operation');
+     }
+  });
+}
+
+function fnReportDashboard(){
+  $.ajax({
+    type: "GET",
+    url: 'demoAssetsResponse.php',
+    data: {param: "ReportDashboard"},
+    success: function(data){
+      console.log(data);            
+    },
+    error: function (errorThrown) {
+         console.log('Error in Operation');
+     }
+  });
+}
+
+function fnRejectionRates(){
+  $.ajax({
+    type: "GET",
+    url: 'demoAssetsResponse.php',
+    data: {param: "RejectionRates"},
+    success: function(data){
+      console.log(data);            
+    },
+    error: function (errorThrown) {
+         console.log('Error in Operation');
+     }
+  });
+}
+
+function fnMostActiveDataSources(){
+  $.ajax({
+    type: "GET",
+    url: 'demoAssetsResponse.php',
+    data: {param: "MostActiveDataSources"},
+    success: function(data){
+      console.log(data);            
+    },
+    error: function (errorThrown) {
+         console.log('Error in Operation');
+     }
+  });
+}
+
+function fnIFWDashboard(){
+  $.ajax({
+    type: "GET",
+    url: 'demoAssetsResponse.php',
+    data: {param: "IFWDashboard"},
+    success: function(data){
+      console.log(data);            
+    },
+    error: function (errorThrown) {
+         console.log('Error in Operation');
+     }
+  });
+}
+
+function fnFilterAnalysis(){
+  $.ajax({
+    type: "GET",
+    url: 'demoAssetsResponse.php',
+    data: {param: "FilterAnalysis"},
+    success: function(data){
+      console.log(data);            
+    },
+    error: function (errorThrown) {
+         console.log('Error in Operation');
+     }
+  });
+}
+
+function fnFeedAnalysis(){
+  $.ajax({
+    type: "GET",
+    url: 'demoAssetsResponse.php',
+    data: {param: "FEEDAnalysis"},
+    success: function(data){
+      console.log(data);            
+    },
+    error: function (errorThrown) {
+         console.log('Error in Operation');
+     }
+  });
+}
+
 function fnRead(){
   $.ajax({
     type: "GET",
-    url: 'read.php',
+    url: 'response.php',
+    data: {param: "read"},
     success: function(data){
       console.log(data);            
     },
@@ -50,7 +201,7 @@ function fnCreate(){
 function fnApp(){
   $.ajax({
     type: "GET",
-    url: 'application.php',
+    url: 'response.php',
     data: {param: "application"},
     success: function(data){
       console.log(data);            
@@ -64,7 +215,7 @@ function fnApp(){
 function fnDashboard(){
   $.ajax({
     type: "GET",
-    url: 'dashboard.php',
+    url: 'response.php',
     data: {param: "dashboard"},
     success: function(data){
       console.log(data);            
@@ -78,7 +229,7 @@ function fnDashboard(){
 function fnEmptyMetaData(){
   $.ajax({
     type: "GET",
-    url: 'emptyMetaData.php',
+    url: 'response.php',
     data: {param: "emptyMetaData"},
     success: function(data){
       console.log(data);            
@@ -92,7 +243,7 @@ function fnEmptyMetaData(){
 function fnMyDashboardData(){
   $.ajax({
     type: "GET",
-    url: 'myDashboardData.php',
+    url: 'response.php',
     data: {param: "myDashboardData"},
     success: function(data){
       console.log(data);            
@@ -106,7 +257,7 @@ function fnMyDashboardData(){
 function fnOutputColumnData(){
   $.ajax({
     type: "GET",
-    url: 'outputColumnData.php',
+    url: 'response.php',
     data: {param: "outputColumnData"},
     success: function(data){
       console.log(data);            

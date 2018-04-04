@@ -1,0 +1,7 @@
+{
+	"status": "200",
+	"statusText": "200 No Error",
+	"headers": "",
+	"responseText": "{\"data\":{\"inserts\":{\"FEEDAnalysis\":[{\"LABEL\":\"Failed\",\"VALUE\":0,\"COUNT\":0},{\"LABEL\":\"In-Progress\",\"VALUE\":0,\"COUNT\":0},{\"LABEL\":\"Completed\",\"VALUE\":0,\"COUNT\":0},{\"LABEL\":\"ExceptionQ\",\"VALUE\":0,\"COUNT\":0},{\"LABEL\":\"Rejected\",\"VALUE\":0,\"COUNT\":0},{\"LABEL\":\"Approved\",\"VALUE\":0,\"COUNT\":0},{\"LABEL\":\"Not Arrived\",\"VALUE\":100,\"COUNT\":4270},{\"LABEL\":\"ApprovalQ\",\"VALUE\":0,\"COUNT\":0}]}},\"success\":true,\"errmsg\":null,\"errorCode\":null,\"metaData\":{\"baseParams\":{\"DASHBOARD_ID\":\"1801\"},\"filterFields\":{\"AS_OF_DATE\":\"2018-01-30\"},\"columns\":[{\"columnName\":\"LABEL\",\"type\":\"VARCHAR2\"},{\"columnName\":\"VALUE\",\"type\":\"NUMBER\"},{\"columnName\":\"COUNT\",\"type\":\"NUMBER\"}],\"fields\":[]},\"structure\":{\"tables\":{\"FEEDAnalysis\":\"([LABEL]  text, [VALUE]  text, [COUNT]  text)\"},\"otherSQL\":{}},\"userMessage\":[]}",
+	"responseState": "DONE"
+}
